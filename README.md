@@ -2,7 +2,6 @@
 
 BioFlowSim is a **Python library for simulating 2D particle flow in microfluidic channels**, generating **realistic imaging sequences**, and creating **ML-ready datasets**. Designed for biomedical engineering students, researchers, and AI practitioners working on flow imaging, speckle imaging, or microfluidic experiments.
 
----
 
 ## Features
 
@@ -25,8 +24,6 @@ BioFlowSim is a **Python library for simulating 2D particle flow in microfluidic
   - Interactive debug mode with sliders
 - **Extensible**
   - Designed modularly for branching channels, 3D flows, and advanced imaging
-
----
 
 ## Installation
 
