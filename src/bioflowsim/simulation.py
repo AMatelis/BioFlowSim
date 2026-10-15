@@ -137,9 +137,31 @@ if __name__ == "__main__":
 
     obstacles = [{'type':'circle','params':{'cx':128,'cy':128,'r':20}}]
 
-    sim = FlowSimulator(num_particles=50, frames=100, velocity=(0.5,0.2),
-                        diffusion=0.05, obstacles=obstacles,
-                        velocity_field=None)
+    
+if __name__ == "__main__":
+    def parabolic_velocity(x, y):
+        # Example of parabolic flow in the y-direction
+        width = 256
+        vx = 0
+        vy = 0.01 * (y - width / 2) ** 2
+        return np.array([vx, vy], dtype=np.float32)
+
+    obstacles = [
+        {
+            "type": "circle",
+            "params": {"cx": 128, "cy": 128, "r": 20},
+        }
+    ]
+
+    sim = FlowSimulator(
+        num_particles=50,
+        frames=100,
+        base_velocity=(0.5, 0.2),
+        diffusion=0.05,
+        obstacles=obstacles,
+        velocity_field=None,
+    )
+
     traj, vel, col = sim.run()
 
     print("Trajectories shape:", traj.shape)
