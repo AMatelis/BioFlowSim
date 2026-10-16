@@ -107,7 +107,7 @@ Synthetic imaging data provides a controlled environment for studying how partic
 ## Development Status
 
 BioFlowSim is an actively developed research software project. Its capabilities may evolve as the simulation framework and imaging utilities are extended.
-
+ 
 ## Author
 
 **Andrew Matelis**
