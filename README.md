@@ -17,15 +17,12 @@ The project provides a modular framework for exploring particle motion, flow beh
   - Configurable particle count, simulation dimensions, base velocity, and diffusion
   - Boundary handling and circular obstacle support
   - Reproducible simulations with configurable random seeds
-
 - **Synthetic Imaging**
   - Imaging utilities for computational experiments
-  - Support for synthetic imaging workflows, according to implemented functionality
-
+  - Support for synthetic imaging workflows
 - **Machine Learning Applications**
   - Utilities for preparing and exploring synthetic data
   - A modular foundation for computational imaging workflows
-
 - **Visualization and Analysis**
   - Tools for examining particle trajectories and simulation outputs
   - Separate visualization and analysis modules
@@ -107,7 +104,7 @@ Synthetic imaging data provides a controlled environment for studying how partic
 ## Development Status
 
 BioFlowSim is an actively developed research software project. Its capabilities may evolve as the simulation framework and imaging utilities are extended.
- 
+
 ## Author
 
 **Andrew Matelis**
